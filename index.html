@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>UniTech | Portal Institucional</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#inicio">
+                <i class="bi bi-mortarboard-fill"></i>
+                UniTech
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Início</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cursos">Cursos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#noticias">Notícias</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle"
+                            href="#"
+                            role="button"
+                            data-bs-toggle="dropdown">
+
+                            Áreas de Ensino
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#cursos">
+                                    Tecnologia
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#cursos">
+                                    Engenharia
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#cursos">
+                                    Negócios
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#cursos">
+                                    Saúde
+                                </a>
+                            </li>
+                        </ul>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- HERO -->
+    <header id="inicio" class="hero">
+
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+
+                <div class="col-lg-6">
+
+                    <span class="hero-tag">
+                        Educação para o futuro
+                    </span>
+
+                    <h1>
+                        Transforme seu futuro através do
+                        <span>conhecimento.</span>
+                    </h1>
+
+                    <p>
+                        Na UniTech você encontra ensino de qualidade,
+                        inovação e preparação para os desafios do mercado
+                        profissional.
+                    </p>
+
+                    <a href="#cursos"
+                        class="btn btn-primary btn-lg me-2">
+
+                        Conheça nossos cursos
+                    </a>
+
+                    <a href="#contato"
+                        class="btn btn-outline-light btn-lg">
+
+                        Fale conosco
+                    </a>
+
+                </div>
+
+
+                <div class="col-lg-6 text-center mt-5 mt-lg-0">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80"
+                        class="img-fluid hero-img"
+                        alt="Estudantes">
+
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+
+    <!-- CURSOS -->
+    <section id="cursos" class="section-padding">
+
+        <div class="container">
+
+            <div class="section-title text-center">
+
+                <span>NOSSOS CURSOS</span>
+
+                <h2>Encontre o curso ideal para você</h2>
+
+                <p>
+                    Conheça algumas das principais áreas disponíveis
+                    em nossa instituição.
+                </p>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <!-- CURSO 1 -->
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card course-card h-100">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=700&q=80"
+                            class="card-img-top"
+                            alt="Engenharia da Computação">
+
+                        <div class="card-body">
+
+                            <span class="course-category">
+                                Tecnologia
+                            </span>
+
+                            <h5 class="card-title">
+                                Engenharia da Computação
+                            </h5>
+
+                            <p class="card-text">
+                                Desenvolva soluções envolvendo hardware,
+                                software, programação e sistemas digitais.
+                            </p>
+
+                            <button
+                                class="btn btn-outline-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modalComputacao">
+
+                                Ver detalhes
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- CURSO 2 -->
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card course-card h-100">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=700&q=80"
+                            class="card-img-top"
+                            alt="Ciência da Computação">
+
+                        <div class="card-body">
+
+                            <span class="course-category">
+                                Tecnologia
+                            </span>
+
+                            <h5 class="card-title">
+                                Ciência da Computação
+                            </h5>
+
+                            <p class="card-text">
+                                Aprenda programação, inteligência artificial,
+                                algoritmos e desenvolvimento de sistemas.
+                            </p>
+
+                            <button
+                                class="btn btn-outline-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modalCiencia">
+
+                                Ver detalhes
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- CURSO 3 -->
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card course-card h-100">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=700&q=80"
+                            class="card-img-top"
+                            alt="Administração">
+
+                        <div class="card-body">
+
+                            <span class="course-category">
+                                Negócios
+                            </span>
+
+                            <h5 class="card-title">
+                                Administração
+                            </h5>
+
+                            <p class="card-text">
+                                Prepare-se para atuar na gestão de empresas,
+                                projetos, equipes e novos negócios.
+                            </p>
+
+                            <button
+                                class="btn btn-outline-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modalAdministracao">
+
+                                Ver detalhes
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- CURSO 4 -->
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card course-card h-100">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&w=700&q=80"
+                            class="card-img-top"
+                            alt="Enfermagem">
+
+                        <div class="card-body">
+
+                            <span class="course-category">
+                                Saúde
+                            </span>
+
+                            <h5 class="card-title">
+                                Enfermagem
+                            </h5>
+
+                            <p class="card-text">
+                                Formação humanizada para atuação na promoção,
+                                prevenção e cuidado com a saúde.
+                            </p>
+
+                            <button
+                                class="btn btn-outline-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modalEnfermagem">
+
+                                Ver detalhes
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- CURSO 5 -->
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card course-card h-100">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=700&q=80"
+                            class="card-img-top"
+                            alt="Engenharia Civil">
+
+                        <div class="card-body">
+
+                            <span class="course-category">
+                                Engenharia
+                            </span>
+
+                            <h5 class="card-title">
+                                Engenharia Civil
+                            </h5>
+
+                            <p class="card-text">
+                                Desenvolva conhecimentos para projetar,
+                                construir e gerenciar obras e estruturas.
+                            </p>
+
+                            <button
+                                class="btn btn-outline-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modalCivil">
+
+                                Ver detalhes
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- CURSO 6 -->
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card course-card h-100">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=700&q=80"
+                            class="card-img-top"
+                            alt="Marketing">
+
+                        <div class="card-body">
+
+                            <span class="course-category">
+                                Negócios
+                            </span>
+
+                            <h5 class="card-title">
+                                Marketing
+                            </h5>
+
+                            <p class="card-text">
+                                Aprenda estratégias de comunicação,
+                                marketing digital e comportamento do consumidor.
+                            </p>
+
+                            <button
+                                class="btn btn-outline-primary"
+                                data-bs-toggle="modal"
+                                data-bs-target="#modalMarketing">
+
+                                Ver detalhes
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- INDICADORES -->
+    <section class="stats">
+
+        <div class="container">
+
+            <div class="row text-center g-4">
+
+                <div class="col-6 col-lg-3">
+                    <div class="stat-item">
+                        <i class="bi bi-mortarboard"></i>
+                        <h3>15.000+</h3>
+                        <p>Alunos formados</p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <div class="stat-item">
+                        <i class="bi bi-book"></i>
+                        <h3>35</h3>
+                        <p>Cursos oferecidos</p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <div class="stat-item">
+                        <i class="bi bi-person-workspace"></i>
+                        <h3>280+</h3>
+                        <p>Professores</p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <div class="stat-item">
+                        <i class="bi bi-star"></i>
+                        <h3>96%</h3>
+                        <p>Satisfação dos alunos</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- TABELA -->
+    <section class="section-padding bg-light">
+
+        <div class="container">
+
+            <div class="section-title text-center">
+                <span>INFORMAÇÕES</span>
+                <h2>Consulte nossos cursos</h2>
+            </div>
+
+            <div class="table-responsive">
+
+                <table class="table table-hover align-middle">
+
+                    <thead>
+                        <tr>
+                            <th>Curso</th>
+                            <th>Modalidade</th>
+                            <th>Carga Horária</th>
+                            <th>Investimento</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>Engenharia da Computação</td>
+                            <td>Presencial</td>
+                            <td>4.000h</td>
+                            <td>R$ 1.250/mês</td>
+                        </tr>
+
+                        <tr>
+                            <td>Ciência da Computação</td>
+                            <td>Presencial</td>
+                            <td>3.200h</td>
+                            <td>R$ 1.100/mês</td>
+                        </tr>
+
+                        <tr>
+                            <td>Administração</td>
+                            <td>Presencial</td>
+                            <td>3.000h</td>
+                            <td>R$ 850/mês</td>
+                        </tr>
+
+                        <tr>
+                            <td>Enfermagem</td>
+                            <td>Presencial</td>
+                            <td>4.000h</td>
+                            <td>R$ 1.050/mês</td>
+                        </tr>
+
+                        <tr>
+                            <td>Engenharia Civil</td>
+                            <td>Presencial</td>
+                            <td>4.000h</td>
+                            <td>R$ 1.200/mês</td>
+                        </tr>
+
+                        <tr>
+                            <td>Marketing</td>
+                            <td>Híbrido</td>
+                            <td>1.800h</td>
+                            <td>R$ 650/mês</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- NOTÍCIAS -->
+    <section id="noticias" class="section-padding">
+
+        <div class="container">
+
+            <div class="section-title text-center">
+                <span>FIQUE POR DENTRO</span>
+                <h2>Últimas notícias</h2>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+
+                    <div class="news-card">
+                        <i class="bi bi-calendar-event"></i>
+
+                        <h4>Semana Acadêmica 2026</h4>
+
+                        <p>
+                            Palestras, oficinas e atividades com profissionais
+                            de diversas áreas.
+                        </p>
+
+                        <a href="#">Saiba mais →</a>
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-4">
+
+                    <div class="news-card">
+                        <i class="bi bi-lightbulb"></i>
+
+                        <h4>Feira de Inovação</h4>
+
+                        <p>
+                            Alunos apresentam projetos de tecnologia,
+                            engenharia e empreendedorismo.
+                        </p>
+
+                        <a href="#">Saiba mais →</a>
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-4">
+
+                    <div class="news-card">
+                        <i class="bi bi-award"></i>
+
+                        <h4>Programa de Bolsas</h4>
+
+                        <p>
+                            Confira as oportunidades de bolsas disponíveis
+                            para novos estudantes.
+                        </p>
+
+                        <a href="#">Saiba mais →</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTATO -->
+    <section id="contato" class="contact section-padding">
+
+        <div class="container">
+
+            <div class="row g-5">
+
+                <div class="col-lg-5">
+
+                    <span class="contact-label">
+                        FALE CONOSCO
+                    </span>
+
+                    <h2>Tem alguma dúvida?</h2>
+
+                    <p>
+                        Preencha o formulário e nossa equipe entrará
+                        em contato com você.
+                    </p>
+
+                    <div class="contact-info">
+
+                        <p>
+                            <i class="bi bi-geo-alt-fill"></i>
+                            Av. Universitária, 367 - Ribeirão Preto/SP
+                        </p>
+
+                        <p>
+                            <i class="bi bi-telephone-fill"></i>
+                            (16) 7777-7777
+                        </p>
+
+                        <p>
+                            <i class="bi bi-envelope-fill"></i>
+                            contato@unitech.edu.br
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-7">
+
+                    <form class="contact-form">
+
+                        <div class="row g-3">
+
+                            <div class="col-md-6">
+
+                                <label class="form-label">
+                                    Nome
+                                </label>
+
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Seu nome"
+                                    required>
+
+                            </div>
+
+
+                            <div class="col-md-6">
+
+                                <label class="form-label">
+                                    E-mail
+                                </label>
+
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    placeholder="seu@email.com"
+                                    required>
+
+                            </div>
+
+
+                            <div class="col-md-6">
+
+                                <label class="form-label">
+                                    Telefone
+                                </label>
+
+                                <input
+                                    type="tel"
+                                    class="form-control"
+                                    placeholder="(00) 00000-0000">
+
+                            </div>
+
+
+                            <div class="col-md-6">
+
+                                <label class="form-label">
+                                    Curso de interesse
+                                </label>
+
+                                <select class="form-select">
+
+                                    <option selected>
+                                        Selecione um curso
+                                    </option>
+
+                                    <option>
+                                        Engenharia da Computação
+                                    </option>
+
+                                    <option>
+                                        Ciência da Computação
+                                    </option>
+
+                                    <option>
+                                        Administração
+                                    </option>
+
+                                    <option>
+                                        Enfermagem
+                                    </option>
+
+                                    <option>
+                                        Engenharia Civil
+                                    </option>
+
+                                    <option>
+                                        Marketing
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <div class="col-12">
+
+                                <label class="form-label">
+                                    Mensagem
+                                </label>
+
+                                <textarea
+                                    class="form-control"
+                                    rows="5"
+                                    placeholder="Digite sua mensagem..."></textarea>
+
+                            </div>
+
+
+                            <div class="col-12">
+
+                                <button
+                                    type="submit"
+                                    class="btn btn-primary">
+
+                                    <i class="bi bi-send"></i>
+                                    Enviar mensagem
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <div class="container">
+
+            <div class="row g-4">
+
+                <div class="col-md-5">
+
+                    <h4>
+                        <i class="bi bi-mortarboard-fill"></i>
+                        UniTech
+                    </h4>
+
+                    <p>
+                        Educação, inovação e conhecimento transformando
+                        o futuro de nossos estudantes.
+                    </p>
+
+                </div>
+
+
+                <div class="col-md-4">
+
+                    <h5>Contato</h5>
+
+                    <p>Av. Universitária, 367 - Ribeirão Preto/SP</p>
+                    <p>(16) 7777-7777</p>
+                    <p>contato@unitech.edu.br</p>
+
+                </div>
+
+
+                <div class="col-md-3">
+
+                    <h5>Redes sociais</h5>
+
+                    <div class="social-icons">
+
+                        <a href="#">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <hr>
+
+            <div class="text-center copyright">
+
+                © 2026 UniTech. Todos os direitos reservados.
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- MODAL ENGENHARIA DA COMPUTAÇÃO -->
+    <div class="modal fade"
+        id="modalComputacao"
+        tabindex="-1">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        Engenharia da Computação
+                    </h5>
+
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <p>
+                        <strong>Objetivo:</strong>
+                        Formar profissionais capazes de desenvolver
+                        soluções de hardware e software.
+                    </p>
+
+                    <p>
+                        <strong>Carga horária:</strong>
+                        4.000 horas.
+                    </p>
+
+                    <p>
+                        <strong>Público-alvo:</strong>
+                        Pessoas interessadas em tecnologia,
+                        programação, eletrônica e computação.
+                    </p>
+
+                    <p>
+                        <strong>Descrição:</strong>
+                        O curso integra conhecimentos de programação,
+                        eletrônica, redes, sistemas digitais,
+                        inteligência artificial e arquitetura de computadores.
+                    </p>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal">
+
+                        Fechar
+
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- MODAIS SIMPLIFICADOS -->
+    <div class="modal fade" id="modalCiencia" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Ciência da Computação</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Objetivo:</strong> Formar profissionais para desenvolvimento de sistemas e soluções computacionais.</p>
+                    <p><strong>Carga horária:</strong> 3.200 horas.</p>
+                    <p><strong>Público-alvo:</strong> Interessados em software, algoritmos e tecnologia.</p>
+                    <p><strong>Descrição:</strong> Formação em programação, banco de dados, inteligência artificial e desenvolvimento de software.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modalAdministracao" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Administração</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Objetivo:</strong> Preparar profissionais para gestão empresarial.</p>
+                    <p><strong>Carga horária:</strong> 3.000 horas.</p>
+                    <p><strong>Público-alvo:</strong> Interessados em negócios e empreendedorismo.</p>
+                    <p><strong>Descrição:</strong> Estudo de gestão, finanças, marketing e recursos humanos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modalEnfermagem" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Enfermagem</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Objetivo:</strong> Formar profissionais preparados para o cuidado com a saúde.</p>
+                    <p><strong>Carga horária:</strong> 4.000 horas.</p>
+                    <p><strong>Público-alvo:</strong> Interessados na área da saúde.</p>
+                    <p><strong>Descrição:</strong> Formação voltada à promoção, prevenção e recuperação da saúde.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modalCivil" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Engenharia Civil</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Objetivo:</strong> Formar profissionais para desenvolver e gerenciar projetos de construção.</p>
+                    <p><strong>Carga horária:</strong> 4.000 horas.</p>
+                    <p><strong>Público-alvo:</strong> Interessados em construção e engenharia.</p>
+                    <p><strong>Descrição:</strong> Abrange estruturas, construção civil, projetos e gerenciamento de obras.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modalMarketing" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Marketing</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Objetivo:</strong> Desenvolver profissionais para o mercado de comunicação e marketing.</p>
+                    <p><strong>Carga horária:</strong> 1.800 horas.</p>
+                    <p><strong>Público-alvo:</strong> Interessados em comunicação, criatividade e negócios.</p>
+                    <p><strong>Descrição:</strong> Aborda marketing digital, publicidade, marcas e comportamento do consumidor.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap JS -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+</html>
